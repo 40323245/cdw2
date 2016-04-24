@@ -1,11 +1,11 @@
 # 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
-from flask import Blueprint, render_template, make_response
+from flask import Blueprint, render_template
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-scrum1_task1 = Blueprint('scrum1_task1', __name__, url_prefix='/ag100', template_folder='templates')
+scrum1_task40123254 = Blueprint('scrum1_task40123254', __name__, url_prefix='/ag1', template_folder='templates')
 
 # scrum1_task1 為完整可以單獨執行的繪圖程式
-@scrum1_task1.route('/scrum1_task1')
+@scrum1_task40123254.route('/scrum1_task1')
 def task1():
     outstring = '''
 <!DOCTYPE html>
@@ -115,7 +115,7 @@ O(0, 0, 0, 0, 0, "lightyellow", True, 4)
 '''
     return outstring
     
-@scrum1_task1.route('/scrum1_demo1')
+@scrum1_task40123254.route('/scrum1_demo1')
 def demo1():
     outstring = '''
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ cgo.drawShape(shapedefs.circle(4), (6.8397*5), (-18.511*5), {"fillColor": "red"}
     return outstring
     
     
-@scrum1_task1.route('/scrum1_demo2')
+@scrum1_task40123254.route('/scrum1_demo2')
 def demo2():
     outstring = '''
 <!DOCTYPE html>
@@ -372,7 +372,7 @@ O3(0, 0, 0, 0, 0, "green", True, 4)
 '''
     return outstring
     
-@scrum1_task1.route('/scrum1_demo3')
+@scrum1_task40123254.route('/scrum1_demo3')
 def demo3():
     outstring = '''
 <!DOCTYPE html>
@@ -497,7 +497,7 @@ O2(0, 0, 0, 0, 0, "blue", True, 4)
 ##########################################################
 ##############                      Week 8 範例          ###############
 ##########################################################
-@scrum1_task1.route('/scrum1_week8_main')
+@scrum1_task40123254.route('/scrum1_week8_main')
 def week8_main():
     outstring = '''
 <!DOCTYPE html>
@@ -526,12 +526,12 @@ brython(1);
     return outstring
 
 # tail 關閉  body 與  html 標註 
-@scrum1_task1.route('/scrum1_week8_tail')
+@scrum1_task40123254.route('/scrum1_week8_tail')
 def week8_tail():
     return "</body></html>"
 
 # 畫 a 函式
-@scrum1_task1.route('/scrum1_week8_a')
+@scrum1_task40123254.route('/scrum1_week8_a')
 def week8_a():
     outstring = '''
 from javascript import JSConstructor
@@ -652,16 +652,11 @@ x9, y9 = mychain.basic_rot(x8, y8, -90)
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1, color="red")
 '''
-    response = make_response(outstring)
-    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
-    response.headers['Access-Control-Allow-Origin'] = 'http://cdw2-ladisai.rhcloud.com'
-    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE'
-    response.headers['Access-Control-Max-Age'] = '86400'
-    return response
+    return outstring
 
 
 # 畫 b 函式
-@scrum1_task1.route('/scrum1_week8_b')
+@scrum1_task40123254.route('/scrum1_week8_b')
 def week8_b():
     outstring = '''
 from javascript import JSConstructor
@@ -788,16 +783,11 @@ x12, y12 = mychain.basic_rot(x11, y11, 210)
 # 水平接回起點
 mychain.basic(x12,y12, 0, 0, color="red")
 '''
-    response = make_response(outstring)
-    response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
-    response.headers['Access-Control-Allow-Origin'] = 'http://cdw2-ladisai.rhcloud.com'
-    response.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE'
-    response.headers['Access-Control-Max-Age'] = '86400'
-    return response
+    return outstring
 
 
 # 畫 C 函式
-@scrum1_task1.route('/scrum1_week8_c')
+@scrum1_task40123254.route('/scrum1_week8_c')
 def week8_c():
     outstring = '''
 from javascript import JSConstructor
@@ -919,7 +909,7 @@ x7, y7 = mychain.basic_rot(x6, y6, -0, color="red")
     return outstring
 
 # 畫 D 函式
-@scrum1_task1.route('/scrum1_week8_d')
+@scrum1_task40123254.route('/scrum1_week8_d')
 def week8_d():
     outstring = '''
 from javascript import JSConstructor
@@ -1044,38 +1034,30 @@ mychain.basic(x10, y10, 0+65*3, 0, color="red")
     return outstring
 
 # 在內部函式傳回字串的層次呼叫測試
-@scrum1_task1.route('/scrum1_week8_test')
+@scrum1_task40123254.route('/scrum1_week8_test')
 def week8_test():
     outstring = week8_main() + week8_a() + week8_tail()
     return outstring
 
 # 在 URL傳回字串的層次呼叫測試
-@scrum1_task1.route('/scrum1_week8_abcd')
+@scrum1_task40123254.route('/scrum1_week8_abcd')
 def week8_abcd():
     outstring = week8_main()
-    outstring += "<script type='text/python' src='/ag100/scrum1_week8_a'></script>"
-    outstring += "<script type='text/python' src='/ag100/scrum1_week8_b'></script>"
-    # C 與 D 打算由 cdw2-ladisai.rhcloud.com 協同者執行繪圖
-    # 由於 cdw2-ag100.rhcloud.com 需要呼叫 cdw2-ladisai.rhcloud.com 的繪圖函式
-    # 因此從 cdw2-ladisai.rhcloud.com 送出的 C 與 D 繪圖內容必須同意此項 cross origin request
-    # 也就是 cdw2-ladisai.rhcloud.com 送出的 header 必須同意讓 cdw2-ag100.rhcloud.com 擷取
-    outstring += "<script type='text/python' src='http://cdw2-ladisai.rhcloud.com/ag100/scrum1_week8_c'></script>"
-    outstring += "<script type='text/python' src='http://cdw2-ladisai.rhcloud.com/ag100/scrum1_week8_d'></script>"
-    #outstring += "<script type='text/python' src='/ag100/scrum1_week8_c'></script>"
-    #outstring += "<script type='text/python' src='/ag100/scrum1_week8_d'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_a'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_b'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_c'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_d'></script>"
     outstring += week8_tail()
     return outstring
     
 # 在 URL傳回字串的層次呼叫測試
-@scrum1_task1.route('/scrum1_week8_abc')
+@scrum1_task40123254.route('/scrum1_week8_abc')
 def week8_abc():
     outstring = week8_main()
-    outstring += "<script type='text/python' src='/ag100/scrum1_week8_a'></script>"
-    outstring += "<script type='text/python' src='/ag100/scrum1_week8_b'></script>"
-    outstring += "<script type='text/python' src='/ag100/scrum1_week8_c'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_a'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_b'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum1_week8_c'></script>"
     # 假如 scrum1 程式碼與 scrum2 所寫的程式碼同時更版且在同一台 server 上運行, 否則要給 scrum2_week8_d 的完整 url
-    outstring += "<script type='text/python' src='/ag100/scrum2_week8_d'></script>"
+    outstring += "<script type='text/python' src='/ag1/scrum2_week8_d'></script>"
     outstring += week8_tail()
     return outstring
-    
-    
