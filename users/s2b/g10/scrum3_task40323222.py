@@ -1,12 +1,12 @@
-#各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
+# 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
 from flask import Blueprint, render_template
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-scrum2_task40323206 = Blueprint('scrum2_task40323206', __name__, url_prefix='/bg5', template_folder='templates')
+scrum3_task40323222 = Blueprint('scrum3_task40323222', __name__, url_prefix='/bg10', template_folder='templates')
 
-# scrum2_task1 為完整可以單獨執行的繪圖程式
-@scrum2_task40323206.route('/scrum2_task40323206')
-def task1():
+# scrum1_task1 為完整可以單獨執行的繪圖程式
+@scrum3_task40323222.route('/scrum3_40323222')
+def scrum3_40323222():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -19,34 +19,42 @@ def task1():
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"></script>
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"></script>
 <script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"></script>
+
 </head>
 <body>
+
 <script>
 window.onload=function(){
 brython(1);
 }
 </script>
+
 <canvas id="plotarea" width="800" height="800"></canvas>
+
 <script type="text/python">
 from javascript import JSConstructor
 from browser import window
 import math
+
 cango = JSConstructor(window.Cango)
 cobj = JSConstructor(window.Cobj)
 shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
 cgo = cango("plotarea")
+
 cgo.setWorldCoords(-250, -250, 500, 500) 
+
 # 決定要不要畫座標軸線
 cgo.drawAxes(0, 240, 0, 240, {
-    "strokeColor":"#66DD00",
-    "fillColor": "#66DD00",
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
     "xTickInterval": 20,
     "xLabelInterval": 20,
     "yTickInterval": 20,
     "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
+
 deg = math.pi/180  
 def O(x, y, rx, ry, rot, color, border, linewidth):
     # 旋轉必須要針對相對中心 rot not working yet
@@ -61,70 +69,78 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
             "border": border,
             "strokeColor": "tan",
             "lineWidth": linewidth })
-            
+
     # 複製 cmbr, 然後命名為 basic1
-    cmbr.rotate(90)
-    cmbr.translate(160, 0)
-    
     basic1 = cmbr.dup()
-    basic1.translate(-160, 0)
-    basic1.rotate(150)
-    basic1.translate(160, 0)
-    
+    # basic1 轉 18 度
+    basic1.rotate(18)
+    basic1.translate(0, -20)
     basic2 = cmbr.dup()
-    basic2.translate(-160, 0)
-    basic2.rotate(120)
-    basic2.translate(20*math.cos(150*deg), 20*math.sin(150*deg))  
-    basic2.translate(160, 0)
-     
+    basic2.rotate(18)
+    basic2.translate(1*20*math.sin(18*deg),-1*20*math.cos(18*deg)-20)
     basic3 = cmbr.dup()
-    basic3.translate(-160, 0)
-    basic3.rotate(90)
-    basic3.translate(20*math.cos(150*deg)+20*math.cos(120*deg), 20*math.sin(150*deg)+20*math.sin(120*deg))
-    basic3.translate(160, 0)
-    
+    basic3.rotate(18)
+    basic3.translate(2*20*math.sin(18*deg),-2*20*math.cos(18*deg)-20)
     basic4 = cmbr.dup()
-    basic4.translate(-160, 0)
-    basic4.rotate(60)
-    basic4.translate(20*math.cos(150*deg)+20*math.cos(120*deg), 20+20*math.sin(150*deg)+20*math.sin(120*deg))
-    basic4.translate(160, 0)
-    
+    basic4.rotate(-18)
+    basic4.translate(4*20*math.sin(18*deg),-2*20*math.cos(18*deg)-20)
     basic5 = cmbr.dup()
-    basic5.translate(-160, 0)
-    basic5.rotate(30)
-    basic5.translate(20*math.cos(150*deg), 20+20*math.sin(150*deg)+20*math.sin(120*deg)+20*math.sin(60*deg))
-    basic5.translate(160, 0)
-    
+    basic5.rotate(-18)
+    basic5.translate(5*20*math.sin(18*deg),-1*20*math.cos(18*deg)-20)
     basic6 = cmbr.dup()
-    basic6.translate(-160, 0)
-    basic6.rotate(0)
-    basic6.translate(0, 20+20*math.sin(150*deg)+20*math.sin(120*deg)+20*math.sin(60*deg)+20*math.sin(30*deg))
-    basic6.translate(160, 0)
+    basic6.rotate(-18)
+    basic6.translate(6*20*math.sin(18*deg),1*20*math.cos(18*deg)-39)
+    basic7 = cmbr.dup()
+    basic7.rotate(0)
+    basic7.translate(6*20*math.sin(18*deg), 0)
+    basic8 = cmbr.dup()
+    basic8.rotate(162)
+    basic8.translate(1*20*math.sin(-18*deg),-1*20*math.cos(-18*deg)-20)
+    basic9 = cmbr.dup()
+    basic9.rotate(162)
+    basic9.translate(-2*20*math.sin(18*deg),-2*20*math.cos(18*deg)-20)
+    basic10 = cmbr.dup()
+    basic10.rotate(162)
+    basic10.translate(-3*20*math.sin(18*deg),-3*20*math.cos(18*deg)-20)
+    basic11 = cmbr.dup()
+    basic11.rotate(18)
+    basic11.translate(-4*20*math.sin(18*deg),-2*20*math.cos(18*deg)-20)
+    basic12 = cmbr.dup()
+    basic12.rotate(18)
+    basic12.translate(-5*20*math.sin(18*deg),-1*20*math.cos(18*deg)-20)
+    basic13 = cmbr.dup()
+    basic13.rotate(18)
+    basic13.translate(-6*20*math.sin(18*deg),1*20*math.cos(18*deg)-39)
+    basic14 = cmbr.dup()
+    basic14.rotate(0)
+    basic14.translate(-6*20*math.sin(18*deg), 0)
+        
     
-   
-    
-    cmbr.appendPath(basic1)             
+    cmbr.appendPath(basic1)
     cmbr.appendPath(basic2)
     cmbr.appendPath(basic3)
     cmbr.appendPath(basic4)
     cmbr.appendPath(basic5)
     cmbr.appendPath(basic6)
+    cmbr.appendPath(basic7)
+    cmbr.appendPath(basic8)
+    cmbr.appendPath(basic9)
+    cmbr.appendPath(basic10)
+    cmbr.appendPath(basic11)
+    cmbr.appendPath(basic12)
+    cmbr.appendPath(basic13)
+    cmbr.appendPath(basic14)
+     
     
-    # hole 為原點位置
-    #hole = cobj(shapedefs.circle(4), "PATH") 
-    #cmbr.appendPath(hole) 
 
     # 表示放大 3 倍
     #cgo.render(cmbr, x, y, 3, rot)
-    # 放大 1 倍
-    cgo.render(cmbr, x, y, 1, rot)
-    
-O(0, 0, 0, 0, 0, "#EE7700", True, 4)
+    # 放大 2 倍
+    cgo.render(cmbr, x, y, 2, rot)
+
+O(0, 18*20*math.sin(18*deg)+40, 0, 0, 0, "red", True, 4)
 </script>
-<!-- 以協同方式加上 ag100 的 scrum-2 組員所寫的 task1 程式碼 -->
-<!-- <script type="text/python" src="/ag100/scrum2_task1"></script>
-<!-- 以協同方式加上 ag100 的  scrum-3 組員所寫的 task1 程式碼 -->
-<!-- <script type="text/python" src="/ag100/scrum3_task1"></script>
+</script>-->
 </body>
 </html>
 '''
