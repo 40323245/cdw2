@@ -38,7 +38,7 @@
 &lt;p&gt;&lt;img src="./../files/ag8Files/40323131/fork-12.png"&gt;&lt;/p&gt;
 &lt;p&gt;大致上了解這些參數代表的意義，就可以繪圖了。&lt;/p&gt;
 &lt;p&gt;接著來說明一下要如何在openshift上，將不同位置的檔案給串接起來&lt;/p&gt;
-&lt;p&gt;記得剛才前面所提到的 make_response ，我們要在要串接的檔案裡面加上這個東西&lt;/p&gt;
+&lt;p&gt;記得剛才前面所提到的 make_response ，我們要在要串接的檔案裡面加上這個東西.&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../files/ag8Files/40323131/fork-13.png"&gt;&lt;/p&gt;
 &lt;p&gt;在被串接程式碼的最後加上紅色框框裡的程式，而裏頭的網址是要讓這個網址可以從你的openshift裏頭呼叫你的程式&lt;/p&gt;
 &lt;p&gt;到他那個網址裡去串接，如果少了這幾段程式碼，就沒辦法從不同的位置去串接在一起，也可以說是許可讓"裏頭所指的網址"&lt;/p&gt;
