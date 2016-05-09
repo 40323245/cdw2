@@ -64,13 +64,17 @@ ag4 組員 40323138 已經在 cdw2 倉儲中的 master 分支建立對應的組�
 
 個人製圖
 &lt;img src="http://imgur.com/I9Fk2GT.png="100%" /&gt;
-
+協同說明
 40323109 red   
 40323130 Orange 
 40323135 lightred
 40323136 lightpink
 40323138 blue
 40323144 balck 
+
+onshape  3D圖
+&lt;a href="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g4/ABCD.stl"&gt;OnshapeABCD&lt;/a&gt;
+&lt;script src="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g4/ABCD.stl"&gt;&lt;/script&gt;
 
 操作步驟
 
