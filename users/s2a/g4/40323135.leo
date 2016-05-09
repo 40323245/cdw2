@@ -54,7 +54,21 @@ Tags: 40323135, task1
 Author: 40323135
 @others
 ag4 組員 40323135 已經在 cdw2 倉儲中的 master 分支建立對應的組員 40323135.leo 並且完成 Task1 的繪圖藍圖建立與註冊
+組別繪圖 :http://cdw2fork-40323138.rhcloud.com/ag4/task1
 
+協同繪圖&lt;img src="http://imgur.com/4V1djLk.png="100%" /&gt;
+
+&lt;img src="http://imgur.com/6K9z7Qu.PNG="100%" /&gt;分別在abcd畫自己被分配的部分
+
+說明
+40323109 red     
+40323130 Orange 
+40323135lightred
+40323136lightpink
+40323138blue
+40323144balck
+心得:這次老師要我們做的東西感覺上有點難度，還好有同學幫忙讓我了解怎麼用，從這次的東西我學到了協同是很重要的事情
+自評:70
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
 目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;
