@@ -53,8 +53,21 @@ Category: ag5
 Tags: 40323113, task1
 Author: 40323113
 @others
-bg5 組員 scrum1 已經在 cdw2 倉儲中的 master 分支建立對應的組員 scrum1.leo 並且完成 Task1 的繪圖藍圖建立與註冊
+ag5 組員 scrum1 已經在 cdw2 倉儲中的 master 分支建立對應的組員 scrum1.leo 並且完成 Task1 的繪圖藍圖建立與註冊
 
+個人繪圖 : &lt;a href="http://cdw2-40323138.rhcloud.com/ag5_40323113abcd/abcd"&gt;scrum1_13&lt;/a&gt; 
+
+協同繪圖 : &lt;a href="http://cdw2-40323138.rhcloud.com/ag5/task1"&gt;task1&lt;/a&gt; 
+
+協同繪圖
+&lt;img src="http://imgur.com/LORfg9h.png="100%" /&gt;
+
+個人製圖
+&lt;img src="http://imgur.com/FnntUUf.png="100%" /&gt;
+
+心得報告:通過這次的報告我深刻地體會到，倉儲從一開始就被弄壞的壞處，而且這次偕同的東西又很細膩，隨便一個小東西弄錯就會把兩班的倉儲弄爆。話說是誰一開始就把倉儲弄壞的。
+
+自評:65
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
 目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;
