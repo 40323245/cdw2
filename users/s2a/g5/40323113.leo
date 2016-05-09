@@ -65,6 +65,10 @@ ag5 組員 scrum1 已經在 cdw2 倉儲中的 master 分支建立對應的組員
 個人製圖
 &lt;img src="http://imgur.com/FnntUUf.png="100%" /&gt;
 
+
+onshape  3D圖
+&lt;a href="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g5/ABCD.stl"&gt;OnshapeABCD&lt;/a&gt;
+&lt;script src="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g5/ABCD.stl"&gt;&lt;/script&gt;
 心得報告:通過這次的報告我深刻地體會到，倉儲從一開始就被弄壞的壞處，而且這次偕同的東西又很細膩，隨便一個小東西弄錯就會把兩班的倉儲弄爆。話說是誰一開始就把倉儲弄壞的。
 
 自評:65
