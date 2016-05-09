@@ -55,8 +55,6 @@ Author: 40323138
 @others
 ag4 組員 40323138 已經在 cdw2 倉儲中的 master 分支建立對應的組員 40323138.leo 並且完成 Task1 的繪圖藍圖建立與註冊
 
-個人繪圖 : &lt;a href="http://cdw2-40323138.rhcloud.com/ag4_40323138abcd/abcd"&gt;40323138abcd&lt;/a&gt; 
-
 協同繪圖 : &lt;a href="http://cdw2fork-40323138.rhcloud.com/ag4/task1"&gt;task1&lt;/a&gt; 
 
 協同繪圖
@@ -65,19 +63,23 @@ ag4 組員 40323138 已經在 cdw2 倉儲中的 master 分支建立對應的組�
 個人製圖
 &lt;img src="http://imgur.com/I9Fk2GT.png="100%" /&gt;
 協同說明
+我負責部分
+(40323138 blue
 40323109 red   
 40323130 Orange 
 40323135 lightred
 40323136 lightpink
-40323138 blue
-40323144 balck 
+40323144 balck )全  幫忙做最後整理編排
 
 onshape  3D圖
 &lt;a href="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g4/ABCD.stl"&gt;OnshapeABCD&lt;/a&gt;
 &lt;script src="https://github.com/40323113/cdw2/blob/gh-pages/users/s2a/g4/ABCD.stl"&gt;&lt;/script&gt;
+心得報告:
+裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的，這次也了解到團隊合作的重要，各有各的專長，而我負責在做2d程式部分，一個人做的真蠻辛苦的，希望能教會更多人，讓大家一起完成行統任務。
+自評分數 : 75
 
-操作步驟
-
+操作步驟簡易說明
+ 
 註冊位置及匯入藍圖(如圖)
 &lt;img src="http://imgur.com/F83hvSN.png" width="100%" /&gt;
 
@@ -95,9 +97,7 @@ onshape  3D圖
 &lt;img src="http://imgur.com/MD0qU0J.png" width="100%" /&gt;
  編輯程式即可完成
  
-心得報告:
-裡面程式相當複雜，一開始沒有很用心去研究，而我又不是組長所以沒有很用心去研究，只好跳出來好好研究程式，研究程式在做什麼，研究到想不透時就去詢問40323131張元旭同學，問了蠻多地方的，要謝謝他的教導，到一定階段後發現其中的一些原理都差不多，後來越來越上手，有學習和了解該得如何去做參數式作圖的。
-自評分數 : 75
+
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
 目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;
