@@ -48,18 +48,21 @@ g.es("admin pelican 執行完畢")
 </t>
 <t tx="amd.20160329174131.1"></t>
 <t tx="amd.20160329174139.1">@language md
-Title: 40123254-回報 ag3 40123254 初步繪圖主機與連結
+Title: 40123254-回報 期中報告 
 Category: ag3
 Tags: 40123254, task1
 Author: 40123254
 @others
-ag3 組員 40123254 已經在 cdw2 倉儲中的 master 分支建立對應的組員 40123254.leo 並且完成 Task1 的繪圖藍圖建立與註冊
+期中報告回報
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;
+自評:70
 
-其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.
+&lt;a href="http://python-cadp13bg99.rhcloud.com/ag1/scrum1_week8_abcd"&gt;ag3-openshift&lt;/a&gt;
+
+ &lt;a href="https://cad.onshape.com/documents/29d1a262b055745e59be7c09/w/1f25948ad73282e2440ffdcf/e/ccd48f0c61cb60e7db123438"&gt;3D&lt;/a&gt;
+ 
 </t>
 <t tx="amd.20160329211330.1"></t>
 </tnodes>
