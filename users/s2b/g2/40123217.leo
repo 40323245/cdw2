@@ -90,6 +90,13 @@ scrum1為組合各組員所建立的在scrum2下的指令
 
 &lt;img src="./../files/bg2/8.png"&gt;
 
-&lt;a href="http://cdw2-cadp13ag35.rhcloud.com/g2/scrum1_task40123235"&gt;bg2-openshift&lt;/a&gt; </t>
+&lt;a href="http://cdw2-cadp13ag35.rhcloud.com/g2/scrum1_task40123235"&gt;bg2-openshift&lt;/a&gt; 
+
+&lt;h2&gt;3D
+
+&lt;img src="./../files/bg2/3DA.png"&gt;
+&lt;img src="./../files/bg2/3DB.png"&gt;
+&lt;img src="./../files/bg2/3DC.png"&gt;
+&lt;img src="./../files/bg2/3DD.png"&gt;</t>
 </tnodes>
 </leo_file>
