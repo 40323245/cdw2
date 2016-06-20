@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW2 網頁 (虎尾科大MDE)</title><link href="http://2015fallhw.github.io/cdw2/post/" rel="alternate"></link><link href="http://2015fallhw.github.io/cdw2/post/feeds/ag9.atom.xml" rel="self"></link><id>http://2015fallhw.github.io/cdw2/post/</id><updated>2016-05-15T00:28:20+08:00</updated><entry><title>40323126-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323126-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-05-15T00:28:20+08:00</updated><author><name>40323126</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323126-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323126 期中報告&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW2 網頁 (虎尾科大MDE)</title><link href="http://2015fallhw.github.io/cdw2/post/" rel="alternate"></link><link href="http://2015fallhw.github.io/cdw2/post/feeds/ag9.atom.xml" rel="self"></link><id>http://2015fallhw.github.io/cdw2/post/</id><updated>2016-06-20T11:17:49+08:00</updated><entry><title>40323150-期末總結</title><link href="http://2015fallhw.github.io/cdw2/post/40323150-qi-mo-zong-jie.html" rel="alternate"></link><updated>2016-06-20T11:17:49+08:00</updated><author><name>40323150</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323150-qi-mo-zong-jie.html</id><summary type="html">&lt;p&gt;期末報告整理&lt;/p&gt;
+
+
+&lt;p&gt;2D鍊條繪圖:&lt;a href="http://cdw2aaaa-889988.rhcloud.com/"&gt;http://cdw2aaaa-889988.rhcloud.com/&lt;/a&gt;
+&lt;br&gt;&lt;img src="http://i.imgur.com/jj9Vt8a.png"&gt;
+&lt;br&gt;&lt;img src="http://i.imgur.com/Bb5ypKf.png"&gt;
+&lt;br&gt;&lt;img src="http://i.imgur.com/GKtKj9j.png"&gt;&lt;br&gt;
+2D齒輪繪圖:&lt;br&gt;
+&lt;br&gt;&lt;img src="http://i.imgur.com/cyx0EAZ.png"&gt;&lt;br&gt;
+3D齒輪機構:&lt;br&gt;
+(1)相同齒數齧合:
+&lt;br&gt;&lt;iframe src="https://player.vimeo.com/video/171293603" width="300" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+(2)相異齒數齧合:
+&lt;br&gt;&lt;iframe src="https://player.vimeo.com/video/171293801" width="300" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+(3)齒輪齧合組合:
+&lt;br&gt;&lt;script src="https://embed.github.com/view/3d/40323150/2015cadp/gh-pages/images/齒輪齧和.stl"&gt;&lt;/script&gt;&lt;br&gt;
+&lt;iframe src="https://player.vimeo.com/video/171294071" width="300" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+心得:
+這學期剛開始覺得還滿放空的，害得很多次上課感覺都沒有學習到新的東西，然後期中時才發覺很多事情都還沒有做，然後才在趕來趕去，也和其他人一起討論，之後感覺有把心漸漸收回來，趁著這段時機 把之前的東西翻了一遍，不懂的就詢問同學，最後終於可以自己完成以ONSHAPE匯出3D齒輪機構。
+一個學期很快又要結束了，希望升上大三 能有個嶄新的開始 不要再像這次拖拖拉拉的了。
+自評:68分&lt;/p&gt;</summary><category term="40323150"></category></entry><entry><title>40323126-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323126-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T11:16:45+08:00</updated><author><name>40323126</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323126-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323126 期中報告&lt;/p&gt;
 
 
 &lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
@@ -12,31 +32,7 @@
 &lt;p&gt;操作網址:
 &lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;心得:經過這半學期的經歷，我漸漸懂得掌握PYTHON的訣竅，雖然說還是很困難，不過在同學的協助之下，也完成到了這個階段，我真的很感謝同學，謝謝他們。
-自評:65&lt;/p&gt;</summary><category term="40323126"></category></entry><entry><title>40323153-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323153-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-05-15T00:11:06+08:00</updated><author><name>40323153</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323153-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323153 期中報告&lt;/p&gt;
-
-
-&lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2D協同繪製ABCD:&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://40323150.github.io/2015cadp/images/ag9_2d_abcd.png" width="250" alt="ABCD"&gt;&lt;/img&gt;&lt;/p&gt;
-&lt;p&gt;操作網址:&lt;a href="http://cdw2-40323132.rhcloud.com/ag9/task1"&gt;http://cdw2-40323132.rhcloud.com/ag9/task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3D協同繪製ABCD(材料繪製):&lt;/p&gt;
-&lt;script src="https://embed.github.com/view/3d/40323150/2015cadp/gh-pages/images/ag9%20_ABCD%20-%20Assembly%20A.stl"&gt;&lt;/script&gt;
-
-&lt;p&gt;操作網址:
-&lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;心得:覺得在這次的製作過程中與上次很不同，還好在有熱心同學的幫助下，我了解了操作的方式，希望下次可以自己吸收老師所教的知識。
-自評:60&lt;/p&gt;</summary><category term="40323153"></category></entry><entry><title>40323150-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323150-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-05-15T00:03:36+08:00</updated><author><name>40323150</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323150-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323150 期中報告&lt;/p&gt;
-
-
-&lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;2D協同繪製ABCD:&lt;/p&gt;
-&lt;p&gt;&lt;img src="http://40323150.github.io/2015cadp/images/ag9_2d_abcd.png" width="250" alt="ABCD"&gt;&lt;/img&gt;&lt;/p&gt;
-&lt;p&gt;操作網址:&lt;a href="http://cdw2-40323132.rhcloud.com/ag9/task1"&gt;http://cdw2-40323132.rhcloud.com/ag9/task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;3D協同繪製ABCD(A):&lt;/p&gt;
-&lt;script src="https://embed.github.com/view/3d/40323150/2015cadp/gh-pages/images/ag9%20_ABCD%20-%20Assembly%20A.stl"&gt;&lt;/script&gt;
-
-&lt;p&gt;操作網址:
-&lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;</summary><category term="40323150"></category></entry><entry><title>40323132-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323132-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-05-15T00:03:36+08:00</updated><author><name>40323132</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323132-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323132 期中報告&lt;/p&gt;
+自評:65&lt;/p&gt;</summary><category term="40323126"></category></entry><entry><title>40323132-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323132-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T11:16:45+08:00</updated><author><name>40323132</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323132-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323132 期中報告&lt;/p&gt;
 
 
 &lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
@@ -49,7 +45,7 @@
 &lt;p&gt;操作網址:
 &lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;心得 : 這門課真的很費盡心思，而且協同倉儲常常有人弄壞，不過仔細的學習後，終於有那麼一點點領悟了，也謝謝其他同學的熱心指導，期中成績可以及格了。
-自評 : 65&lt;/p&gt;</summary><category term="40323132"></category></entry><entry><title>40323149-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323149-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-05-15T00:03:36+08:00</updated><author><name>40323149</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323149-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323149 期中報告&lt;/p&gt;
+自評 : 65&lt;/p&gt;</summary><category term="40323132"></category></entry><entry><title>40323149-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323149-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T11:16:45+08:00</updated><author><name>40323149</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323149-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323149 期中報告&lt;/p&gt;
 
 
 &lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
@@ -62,20 +58,44 @@
 &lt;p&gt;操作網址:
 &lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;
 心得:過程中很繁瑣也很困難，而因為同學的幫助，才能完成這次的作業，真的很感謝他們，耐心的幫助我。
-自評:65&lt;/p&gt;</summary><category term="40323149"></category></entry><entry><title>40323153-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323153-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-05-15T00:03:10+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323153-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323153 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
+自評:65&lt;/p&gt;</summary><category term="40323149"></category></entry><entry><title>40323150-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323150-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T11:16:45+08:00</updated><author><name>40323150</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323150-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323150 期中報告&lt;/p&gt;
+
+
+&lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2D協同繪製ABCD:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://40323150.github.io/2015cadp/images/ag9_2d_abcd.png" width="250" alt="ABCD"&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;操作網址:&lt;a href="http://cdw2-40323132.rhcloud.com/ag9/task1"&gt;http://cdw2-40323132.rhcloud.com/ag9/task1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3D協同繪製ABCD(A):&lt;/p&gt;
+&lt;script src="https://embed.github.com/view/3d/40323150/2015cadp/gh-pages/images/ag9%20_ABCD%20-%20Assembly%20A.stl"&gt;&lt;/script&gt;
+
+&lt;p&gt;操作網址:
+&lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;</summary><category term="40323150"></category></entry><entry><title>40323153-期中報告</title><link href="http://2015fallhw.github.io/cdw2/post/40323153-qi-zhong-bao-gao.html" rel="alternate"></link><updated>2016-06-20T11:16:45+08:00</updated><author><name>40323153</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323153-qi-zhong-bao-gao.html</id><summary type="html">&lt;p&gt;40323153 期中報告&lt;/p&gt;
+
+
+&lt;p&gt;AG9協同GITHUB : &lt;a href="https://github.com/2015fallhw/cdw2/wiki/2ag9"&gt;https://github.com/2015fallhw/cdw2/wiki/2ag9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2D協同繪製ABCD:&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://40323150.github.io/2015cadp/images/ag9_2d_abcd.png" width="250" alt="ABCD"&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;操作網址:&lt;a href="http://cdw2-40323132.rhcloud.com/ag9/task1"&gt;http://cdw2-40323132.rhcloud.com/ag9/task1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3D協同繪製ABCD(材料繪製):&lt;/p&gt;
+&lt;script src="https://embed.github.com/view/3d/40323150/2015cadp/gh-pages/images/ag9%20_ABCD%20-%20Assembly%20A.stl"&gt;&lt;/script&gt;
+
+&lt;p&gt;操作網址:
+&lt;a href="https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5"&gt;https://cad.onshape.com/documents/a572c0b3c2573ad6e392aae0/w/cdf8c2c3384208c50d5c4b39/e/84d37f83989db2a50f6d6bc5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;心得:覺得在這次的製作過程中與上次很不同，還好在有熱心同學的幫助下，我了解了操作的方式，希望下次可以自己吸收老師所教的知識。
+自評:60&lt;/p&gt;</summary><category term="40323153"></category></entry><entry><title>40323150-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323150-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-06-20T11:15:44+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323150-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323150 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
 
 
 &lt;p&gt;目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323153"></category></entry><entry><title>40323150-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323150-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-05-15T00:03:10+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323150-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323150 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
+&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323150"></category></entry><entry><title>40323153-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323153-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-06-20T11:15:44+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323153-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323153 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
 
 
 &lt;p&gt;目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323150"></category></entry><entry><title>40323126-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323126-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-05-15T00:03:10+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323126-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323126 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
+&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323153"></category></entry><entry><title>40323125-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323125-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-06-20T11:15:44+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323125-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323125 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
 
 
 &lt;p&gt;目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323126"></category></entry><entry><title>40323125-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323125-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-05-15T00:03:10+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-05-15:cdw2/post/40323125-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323125 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
+&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323125"></category></entry><entry><title>40323126-回報 ag9 初步繪圖主機與連結</title><link href="http://2015fallhw.github.io/cdw2/post/40323126-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html" rel="alternate"></link><updated>2016-06-20T11:15:44+08:00</updated><author><name>kmol</name></author><id>tag:2015fallhw.github.io,2016-06-20:cdw2/post/40323126-hui-bao-ag9-chu-bu-hui-tu-zhu-ji-yu-lian-jie.html</id><summary type="html">&lt;p&gt;ag9 組員 40323126 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊&lt;/p&gt;
 
 
 &lt;p&gt;目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323125"></category></entry></feed>
+&lt;p&gt;其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.&lt;/p&gt;</summary><category term="scrum1"></category><category term="task1"></category><category term="40323126"></category></entry></feed>
